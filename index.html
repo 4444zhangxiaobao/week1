@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <ul class="list">
+                <li>
+                    <span class="left">主页</span>
+                    <span class="right">上海</span>
+                </li>
+                <li><input type="text" placeholder="输入区域，小区搜索房源"></li>
+                <li>我的</li>
+            </ul>
+            <div class="nav">
+                <ul class="navlist">
+                    <li>位置</li>
+                    <li>租金</li>
+                    <li class="active">合租</li>
+                    <li>更多</li>
+                </ul>
+            </div>
+        </header>
+        <section>
+            <div class="content">
+                <dl>
+                    <dt>
+                        <div class="imgbox"><img src="img/3.jpg" alt=""></div>
+                        <!-- <div class="pfimg"></div> -->
+                    </dt>
+                    <dd>
+                        <h4>德圣苑</h4>
+                        <h5><b>￥2200</b><span>可月付</span></h5>
+                        <h6>7户合租 | 朝东-次卧 | 15M</h6>
+                        <h6>浦东-北蔡</h6>
+                        <h3><span>新上架</span><span>独卫</span><span>独立房间</span><b>今天发布</b></h3>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <div class="imgbox"><img src="img/4.jpg" alt=""></div>
+                        <!-- <div class="pfimg"></div> -->
+                    </dt>
+                    <dd>
+                        <h4>德圣苑</h4>
+                        <h5><b>￥2200</b><span>可月付</span></h5>
+                        <h6>7户合租 | 朝东-次卧 | 15M</h6>
+                        <h6>浦东-北蔡</h6>
+                        <h3><span>新上架</span><span>独卫</span><span>独立房间</span><b>今天发布</b></h3>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <div class="imgbox"><img src="img/2.jpg" alt=""></div>
+                        <!-- <div class="pfimg"></div> -->
+                    </dt>
+                    <dd>
+                        <h4>德圣苑</h4>
+                        <h5><b>￥2200</b><span>可月付</span></h5>
+                        <h6>7户合租 | 朝东-次卧 | 15M</h6>
+                        <h6>浦东-北蔡</h6>
+                        <h3><span>新上架</span><span>独卫</span><span>独立房间</span><b>今天发布</b></h3>
+                    </dd>
+                </dl>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="jquery-1.8.3.min.js"></script>
+<script>
+    $.ajax({
+        url: 'http://loaclhost:8088',
+        success: function(data) {
+
+        }
+    })
+</script>
+
+</html>
